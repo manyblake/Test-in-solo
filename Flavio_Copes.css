@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #0e140a;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: 60%;
+    margin: 100px auto;
+}
+
+.nav_style {
+    width: 20%;
+    float: left;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif */
+}
+
+main {
+    float: left;
+    width: 80%;
+}
+
+main::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.header_logo {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.search {
+    border: 1px solid #333;
+    padding: 5px 0;
+    font-family: monospace;
+    background-color: #0e140a;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.nav_title {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 18px;
+    display: inline-block;
+}
+
+/* .links_box {
+    float: left;
+} */
+
+.nav_link {
+    color: white;
+    padding: 9px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.link_yellow {
+    color: black;
+    background-color: #ecdb54;
+}
+
+.link_cyan {
+    background-color: #3776ab;
+}
+
+.link_grey {
+    background-color: #282c34;
+    color:  #61dafb;
+}
+
+.link_orange {
+    background-color: #f2552c;
+}
+
+.link_pink {
+    background-color: #bc70a4;
+}
+
+.link_green {
+    background-color: #026e00;
+}
+
+.link_black {
+    background-color: black;
+}
+
+.link_purple {
+    background-color: #5b5ea6;
+}
+
+.other_links {
+    margin-top: 100px;
+}
+
+.other_links a {
+    text-decoration: underline dotted;
+    color: white;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.card {
+    border-bottom: 1px dotted white;
+    padding: 20px;
+    color: white;
+}
+
+.title {
+    width: 80%;
+    float: left;
+    
+}
+
+.info {
+    float: right;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.info a {
+    float: right;
+}
+
+.card:hover {
+    background-color: white;
+    color: black;
+    border-bottom: 1px dotted black;
+}
